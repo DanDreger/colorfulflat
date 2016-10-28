@@ -1,0 +1,228 @@
+* {
+	margin: 				0;
+	padding: 				0;
+	font-family: 			sans-serif;
+}
+
+.top {
+	display: 				inline-block;
+	padding: 				10px;
+	float: 					right;
+}
+
+nav {
+	height: 				100px;
+}
+
+header {
+	height: 				400px;
+	background-color: 		#96c9d5;
+}
+
+.bubbles {
+	position: 				absolute;
+	top: 					350px;
+	left: 					45%;
+
+}
+
+.title {
+	width: 					40%;
+	float: 					left;
+	color: 					white;
+}
+
+.computer {
+	width: 					40%;
+	float: 					left;
+}
+
+#section2 {
+	height: 				250px;
+	background-color: 		white;
+	text-align: 			center;
+	line-height: 			1.1;
+}
+
+#section2 img {
+	width: 				 	100px;
+	height: 				80px;
+	margin-bottom: 			2px;
+	padding-top: 			30px;
+}
+
+#section2 div {
+	width: 					250px;
+	float: 					left;
+	padding: 				0 5% 0 5%;
+	margin: 				0 auto;
+}
+
+#section3 {
+	height: 				600px;
+	background-color: 		#86ca92;
+	text-align: 			center;
+}
+
+#section3 img {
+	max-height: 			200px;
+}
+
+.greennavigation {
+	width: 					50%;
+	margin: 				0 auto;
+}
+
+.gnav { 
+	display: 				inline-block;
+	padding: 				10px;
+	text-align: 			center;
+}
+
+.photos {
+	display: 				block;
+	clear: 					right;
+	text-align: 			center;	
+}
+
+.photos img {
+	width: 					25%;
+	padding: 				1%;
+}
+
+#section3 button {
+	background-color: 		white;
+	width: 					100px;
+	height: 				50px;
+}
+
+#section4 {
+	height: 				500px;
+	background-color:		#ededed;
+}
+
+#section4 img {
+	height: 				50%;
+}
+
+.image1 {
+	float: 					left;
+}
+
+.image2 {
+	float: 					right;
+}
+
+.tophalf, .bottomhalf {
+	display: 				inline-block;
+	height: 				40%;
+	margin-left: 			10%;
+	margin-right: 			10%;	
+}
+
+.bottomhalf {
+	margin-left: 			50%;
+}
+
+#section4 p, h3 {
+	width: 					50%;
+}
+
+#section5 {
+	height: 				500px;
+	background-color: 		#d9a4ba;
+	text-align: 			center;
+}	
+
+#section5 p {
+	width: 					60%;
+	margin: 				auto;
+}
+
+
+ #section5 div {
+	width:  				200px;
+	height: 				300px;
+	background-color: 		white;
+	display: 				inline-block;
+	margin: 				15px;
+}
+
+.team {
+	background-color: 		white;
+}
+
+.team li {
+	padding: 				10px;
+}
+
+.team ul {
+	text-align: 			center;
+}
+
+
+.head {
+	background-color: 		#e7e7e7;
+	margin: 				auto;
+	display: 				block;
+	width: 					50%;
+	height: 				40%;
+	padding:  				10px 50px;
+}	
+
+.social {
+	display: 				inline-block;
+	width: 					25px;
+}
+
+.social img {
+	width: 					30px;
+	height: 				30px;
+}
+
+h1 {
+	font-size: 				22px;
+}
+
+h3, h4, p {
+	text-align: 			center;
+}
+
+h3 {
+	font-size: 				20px;
+}
+
+h4 {
+	font-size: 				15px;
+	line-height: 			1.2;
+}
+
+.team p {
+	font-size: 				8.5px;
+	line-height: 			1.3;
+}
+
+#section6 {
+	height: 				500px;
+	background-color: 		#96c9d5;
+	text-align: 			center;
+}
+
+#section6 p {
+	width: 					60%;
+	margin: 				auto;
+}
+
+
+ #section6 div {
+	width:  				200px;
+	height: 				300px;
+	background-color: 		white;
+	display: 				inline-block;
+	margin: 				15px;
+}
+
+footer {
+	height: 				600px;
+	background-color: 		black;
+}
