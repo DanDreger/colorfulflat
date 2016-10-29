@@ -1,7 +1,7 @@
 * {
 	margin: 				0;
 	padding: 				0;
-	font-family: 			sans-serif;
+	font-family: 			'Baloo Chettan', sans-serif;	
 }
 
 .top {
@@ -30,6 +30,7 @@ header {
 	width: 					40%;
 	float: 					left;
 	color: 					white;
+	padding: 				0 50px;		
 }
 
 .computer {
@@ -56,10 +57,15 @@ header {
 	float: 					left;
 	padding: 				0 5% 0 5%;
 	margin: 				0 auto;
+	color: 					black;
+}
+
+#section2 p {
+	width: 					97%;
 }
 
 #section3 {
-	height: 				600px;
+	height: 				750px;
 	background-color: 		#86ca92;
 	text-align: 			center;
 }
@@ -68,9 +74,17 @@ header {
 	max-height: 			200px;
 }
 
+#section3 p, div, ul {
+	color: 					white;
+}
+
+#section3 p {
+	font-size: 			10px;
+}
 .greennavigation {
 	width: 					50%;
-	margin: 				0 auto;
+	margin: 				30px auto 10px auto;
+
 }
 
 .gnav { 
@@ -94,6 +108,10 @@ header {
 	background-color: 		white;
 	width: 					100px;
 	height: 				50px;
+	border-radius: 			5px;
+	border:					none;
+	color: 					grey;
+	margin-top: 			30px;
 }
 
 #section4 {
@@ -117,7 +135,8 @@ header {
 	display: 				inline-block;
 	height: 				40%;
 	margin-left: 			10%;
-	margin-right: 			10%;	
+	margin-right: 			10%;
+	color: 					black;	
 }
 
 .bottomhalf {
@@ -130,7 +149,7 @@ header {
 }
 
 #section5 {
-	height: 				500px;
+	height: 				600px;
 	background-color: 		#d9a4ba;
 	text-align: 			center;
 }	
@@ -138,6 +157,7 @@ header {
 #section5 p {
 	width: 					60%;
 	margin: 				auto;
+	color: 					white;
 }
 
 
@@ -147,10 +167,16 @@ header {
 	background-color: 		white;
 	display: 				inline-block;
 	margin: 				15px;
+	color: 					black;
 }
 
 .team {
 	background-color: 		white;
+}
+
+.team h3 {
+	margin: 				0 auto;
+	color: 					black;
 }
 
 .team li {
@@ -182,7 +208,9 @@ header {
 }
 
 h1 {
-	font-size: 				22px;
+	font-size: 				50px;
+	color: 					white;
+	text-align: 			center;
 }
 
 h3, h4, p {
@@ -212,6 +240,7 @@ h4 {
 #section6 p {
 	width: 					60%;
 	margin: 				auto;
+	color: 					white;
 }
 
 
@@ -226,4 +255,33 @@ h4 {
 footer {
 	height: 				600px;
 	background-color: 		black;
+	color: 					white;
+}
+
+footer h1, p {
+	width: 					35%;
+	text-align: 			center;
+	margin: 				0 auto;
+}
+
+footer h1 {
+	padding-top: 			30px;
+	font-size: 				50px;
+}
+
+footer input {
+	display: 				block;
+	width: 					32.9%;
+	padding: 				10px;
+	margin: 				15px auto;
+	border-radius: 			5px;
+
+}
+
+footer textarea {
+	display: 				block;
+	width: 					32.9%;
+	padding: 				10px;
+	margin: 				15px auto;
+	border-radius: 			5px;
 }
