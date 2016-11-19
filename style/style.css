@@ -42,13 +42,6 @@ header a {
 	text-align: 			left;
 }
 
-/*cant make the background white. when setting a height, it destroys the inline block characteristic*/
-#white {
-	width: 					90%;
-	margin: 				5%;
-	background-color: 		white;
-}
-
 
 #green {
 	background-color: 		#98d5a2;
