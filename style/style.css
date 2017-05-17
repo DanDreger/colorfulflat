@@ -1,9 +1,48 @@
-header, #blue {
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1, h2, h3, h5, h6 {
+	font-family: 'Patrick Hand SC', cursive;
+	font-size: 				2em;
+}
+
+h4 {
+	font-weight: 			bold;
+}
+
+header {
+	font-size: 				1.5em;
+}
+
+header, #blue, #lastblue {
 	background-color:		#a5d2dd;
 }
 
-li {
+header li {
 	display: 				inline-block;
+	color:					#555555;
+	border-radius: 			4px;
+}
+
+header li.active {
+	background-color: 		white;
+	color: 					#555555;
+}
+
+#green .nav-pills>li.active>a, #green .nav-pills>li.active>a:focus, #green .nav-pills>li.active>a:hover {
+	color: 					#98d5a2;
+   	background-color: 		white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+header .nav-pills>li.active>a, header .nav-pills>li.active>a:focus, header .nav-pills>li.active>a:hover {
+							color: #a5d2dd;
+    						background-color: #545454;
 }
 
 header ul {
@@ -18,8 +57,9 @@ header a {
 
 .logo {
 	padding-left: 			100px;
-	font-size: 				20px;
-	padding-top: 			20px;
+	font-size: 				30px;
+	padding-top: 			5px;
+	color: 					#545454;
 }
 
 #blue {
@@ -32,6 +72,7 @@ header a {
 #blue li {
 	width: 					40%;
 	text-align: 			center;
+	font-size: 				1.5em;
 }
 
 #blue li:nth-child(2) {
@@ -42,47 +83,130 @@ header a {
 	text-align: 			left;
 }
 
+.whiteContent {
+	margin: 				2%;
+	text-align: 			center;
+}
+
+.white img {
+	width: 					100%;
+}
+
 
 #green {
 	background-color: 		#98d5a2;
 }
- 
-/*
-cant allign the h1 in green section at the center of the document*/
 
-
-
-
-/*cant text allign or margin 0 auto the nav, no matter the selector */
-#green nav {
+#greenContent, .lastBlueIntro, .pinkIntro {
+	padding:					2%;
 	text-align: 			center;
+	font-size: 				1.5em;
+	color: 					white;
+	width: 					80%;
+	margin: 				0 auto;
+}
+
+.greenNavs {
+	margin: 				0 auto;
+	text-align: 			center;
+	margin-top: 			5%;
 }
 
 #green img {
 	max-height: 			160px;
 }
 
-/*why dont list items display next to one another? */
 #grey {
 	background-color: 		#f1f1f1;
 }
 
-#grey img {
-	width: 					50%;
+.greyContent {
+	padding: 				3%;
 }
 
-#grey li {
-	width: 					40%;
+.greyContent .col-sm-5 h3 {
+	margin-top: 			0%;
 }
+
+#grey img {
+	width: 					80%;
+	float: 					right;
+}
+
+#grey hr {
+	border: 				1px solid #ccc;
+	width: 					90%;
+}
+
+.buttonwrapper {
+	text-align: 			center;
+	padding-bottom: 		2%;
+}
+
+.button0 {
+	height: 				40px;
+	width: 					15%;
+	background-color:		#f1f1f1;
+	border:					none; 
+	border-radius: 			5px;
+	color: 					grey;
+}
+
+.button1 {
+	height: 				40px;
+	width: 					30%;
+	background-color:		#98d5a2;
+	border:					none; 
+	border-radius: 			5px;
+	color: 					white;
+}
+
+.button2 {
+	height: 				40px;
+	width: 					30%;
+	background-color:		#a5d2dd;
+	border:					none; 
+	border-radius: 			5px;
+	color: 					white;
+}
+
+
 
 #pink {
 	background-color:		#dfb5c5;
 	text-align: 			center;
-	padding: 				3% 10%;
+	padding: 				3% 20%;
+}
+
+#pink img {
+	width: 					60%;
+}
+
+.headshot {
+	background-color: 		white;
+}
+
+.profile {
+	background-color: 		#ececec;
+}
+
+.profile h3 {
+	margin-top: 			0;
 }
 
 #pink li {
 	width: 					30%;
+	margin: 				0;
+	display: 				inline-block;
+}
+
+#pink ul {
+	padding: 				0;
+}
+
+.lastBlueContent {
+	margin-left: 			3%;
+	margin-right:			3%;	
 }
 
 footer {
@@ -91,6 +215,7 @@ footer {
 	text-align: 			center;
 	padding-top: 			2%;
 	padding-bottom: 		5%;
+	font-size: 				1.5em;
 }
 
 footer textarea, footer input {
